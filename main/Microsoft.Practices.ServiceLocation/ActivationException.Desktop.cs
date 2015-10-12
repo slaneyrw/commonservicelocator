@@ -1,8 +1,10 @@
+#if NET20
 using System;
 using System.Runtime.Serialization;
 
 namespace Microsoft.Practices.ServiceLocation
 {
+
     [Serializable]
     public partial class ActivationException
     {
@@ -24,3 +26,4 @@ namespace Microsoft.Practices.ServiceLocation
         protected ActivationException(SerializationInfo info, StreamingContext context) : base(info, context) {}
     }
 }
+#endif
