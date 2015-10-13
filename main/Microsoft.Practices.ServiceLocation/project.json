@@ -1,14 +1,13 @@
 ﻿{
-  "version": "1.0.0-*",
+  "version": "1.3.0.0",
   "description": "Microsoft.Practices.ServiceLocation (CoreClr) Class Library",
   "authors": [ "cibrax" ],
   "tags": [ "" ],
   "projectUrl": "",
   "licenseUrl": "",
-
+  "exclude": "ActivationException.Desktop.cs",
   "dependencies": {
   },
-
   "frameworks": {
     "dotnet": {
       "dependencies": {
