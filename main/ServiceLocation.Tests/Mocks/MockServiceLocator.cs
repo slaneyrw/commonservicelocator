@@ -1,4 +1,4 @@
-﻿using Microsoft.Practices.ServiceLocation;
+﻿using ServiceLocation;
 using System;
 using System.Collections.Generic;
 using System.Linq;

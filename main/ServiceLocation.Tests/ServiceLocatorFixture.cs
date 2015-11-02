@@ -1,38 +1,37 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.Practices.ServiceLocation;
+using Xunit;
+using ServiceLocation;
 using ServiceLocation.Tests.Mocks;
 
 namespace ServiceLocation.Tests
 {
-    [TestClass]
     public class ServiceLocatorFixture
     {
-        [TestInitialize]
-        public void TestInit()
+        public ServiceLocatorFixture()
         {
             ServiceLocator.SetLocatorProvider(null);
         }
 
-        [TestMethod]
+        [Fact]
         public void ServiceLocatorIsLocationProviderSetReturnsTrueWhenSet()
         {
             ServiceLocator.SetLocatorProvider(() => new MockServiceLocator());
 
-            Assert.IsTrue(ServiceLocator.IsLocationProviderSet);
+            Assert.True(ServiceLocator.IsLocationProviderSet);
         }
 
-        [TestMethod]
+        [Fact]
         public void ServiceLocatorIsLocationProviderSetReturnsFalseWhenNotSet()
         {
-            Assert.IsFalse(ServiceLocator.IsLocationProviderSet);
+            Assert.False(ServiceLocator.IsLocationProviderSet);
         }
 
-        [TestMethod]
-        [ExpectedException(typeof(InvalidOperationException))]
+        [Fact]
         public void ServiceLocatorCurrentThrowsWhenLocationProviderNotSet()
         {
-            var currentServiceLocator = ServiceLocator.Current;
+            IServiceLocator currentServiceLocator;
+            var ex = Assert.Throws<InvalidOperationException>(() => currentServiceLocator = ServiceLocator.Current);
+
         }
     }
 }

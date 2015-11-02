@@ -3,3 +3,8 @@ main/Microsoft.Practices.ServiceLocation/obj/
 main/Microsoft.Practices.ServiceLocation/project.lock.json
 main/.vs/
 src/commonservicelocator/main/artifacts/
+main/ServiceLocation/bin/
+project.lock.json
+main/ServiceLocation.Tests/obj/
+main/ServiceLocation/obj/
+main/ServiceLocation.PortableClassLibrary/obj/

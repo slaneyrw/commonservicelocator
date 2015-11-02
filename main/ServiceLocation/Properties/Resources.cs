@@ -1,4 +1,4 @@
-﻿namespace Microsoft.Practices.ServiceLocation.Properties
+﻿namespace ServiceLocation.Properties
 {
     /// <summary>
     /// Resources

@@ -43,11 +43,7 @@
         <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
       </ItemGroup>
     </When>
-    <Otherwise>
-      <ItemGroup>
-        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
-      </ItemGroup>
-    </Otherwise>
+    <Otherwise />
   </Choose>
   <ItemGroup>
     <Compile Include="Mocks\MockServiceLocator.cs" />
@@ -57,9 +53,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Microsoft.Practices.ServiceLocation.PortableClassLibrary\Microsoft.Practices.ServiceLocation.PortableClassLibrary.csproj">
+    <ProjectReference Include="..\ServiceLocation.PortableClassLibrary\ServiceLocation.PortableClassLibrary.csproj">
       <Project>{610653ae-b766-4ad1-a5c6-865246206b8f}</Project>
-      <Name>Microsoft.Practices.ServiceLocation.PortableClassLibrary</Name>
+      <Name>ServiceLocation.PortableClassLibrary</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>
