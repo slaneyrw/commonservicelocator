@@ -48,20 +48,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.Desktop.cs" />
     <Compile Include="Properties\Resources.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <DependentUpon>Resources.cs</DependentUpon>
-    </Compile>
     <Compile Include="ServiceLocator.cs" />
     <Compile Include="ServiceLocatorImplBase.cs" />
     <Compile Include="ServiceLocatorProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Readme.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <DependentUpon>Resources.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
