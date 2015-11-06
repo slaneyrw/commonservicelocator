@@ -1,0 +1,22 @@
+version: 1.3.0.{build}
+branches:
+  only:
+  - core-clr
+os: Visual Studio 2015
+install:
+- cmd: >-
+    dnvm install 1.0.0-beta8
+
+    dnu restore
+build:
+  project: main\ServiceLocation (CoreClr).sln
+  verbosity: normal
+test_script:
+- ps: >-
+    dnvm install 1.0.0-beta8 -r coreclr -arch x86
+
+    dnvm use 1.0.0-beta8 -r coreclr -arch x86
+
+    cd main\ServiceLocation.Tests
+
+    dnx test

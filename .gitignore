@@ -8,3 +8,5 @@ project.lock.json
 main/ServiceLocation.Tests/obj/
 main/ServiceLocation/obj/
 main/ServiceLocation.PortableClassLibrary/obj/
+artifacts/bin/
+main/ServiceLocation.Tests/bin/
