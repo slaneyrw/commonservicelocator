@@ -8,15 +8,31 @@
   "exclude": "ActivationException.Desktop.cs",
   "dependencies": {
   },
-  "commands": {
-    "test": "xunit.runner.dnx -xml testresults.xml"
-  },
   "frameworks": {
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Runtime": "4.0.0.0",
+        "System.Globalization": "4.0.0.0"
+      }
+    },
+    "dnx451": {
+      "frameworkAssemblies": {
+        "System": "4.0.0.0",
+        "System.Runtime": "4.0.10.0",
+        "System.Globalization": "4.0.0.0"
+      }
+    },
     "dotnet": {
+      "dependencies": {
+      "Microsoft.CSharp": "4.0.0",
+        "System.ComponentModel.TypeConverter": "4.0.0"
+          }
+    },
+    "dnxcore50": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.0",
         "System.ComponentModel.TypeConverter": "4.0.0"
       }
     }
   }
-}
+  }
