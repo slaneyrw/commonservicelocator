@@ -1,0 +1,17 @@
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\obj\Debug\ServiceLocation.Tests.csprojResolveAssemblyReference.cache
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.execution.desktop.dll
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\ServiceLocation.Tests.dll
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\ServiceLocation.Tests.pdb
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\ServiceLocation.dll
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.abstractions.dll
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.assert.dll
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.core.dll
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\ServiceLocation.pdb
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.assert.pdb
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.assert.xml
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.core.pdb
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.core.xml
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\obj\Debug\ServiceLocation.Tests.dll
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\obj\Debug\ServiceLocation.Tests.pdb
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.runner.visualstudio.testadapter.dll
+D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\ServiceLocation.Tests\bin\Debug\xunit.runner.utility.desktop.dll
