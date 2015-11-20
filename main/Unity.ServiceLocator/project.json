@@ -6,6 +6,7 @@
   "projectUrl": "",
   "licenseUrl": "",
   "exclude": "ActivationException.Desktop.cs",
+  "compilationOptions": { "keyFile": "../Unity.ServiceLocator.snk" },
   "dependencies": {
   },
   "frameworks": {
