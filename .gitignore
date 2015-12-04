@@ -10,3 +10,4 @@ main/ServiceLocation/obj/
 main/ServiceLocation.PortableClassLibrary/obj/
 artifacts/bin/
 main/ServiceLocation.Tests/bin/
+main/Unity.ServiceLocator.Tests/bin/
