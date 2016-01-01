@@ -15,7 +15,7 @@
         "System.Globalization": "4.0.0.0"
       }
     },
-    "dnx451": {
+    "net451": {
       "frameworkAssemblies": {
         "System": "4.0.0.0",
         "System.Runtime": "4.0.10.0",
@@ -29,6 +29,12 @@
       }
     },
     "dnxcore50": {
+      "dependencies": {
+        "Microsoft.CSharp": "4.0.0",
+        "System.ComponentModel.TypeConverter": "4.0.0"
+      }
+    },
+    "dotnet5.4": {
       "dependencies": {
         "Microsoft.CSharp": "4.0.0",
         "System.ComponentModel.TypeConverter": "4.0.0"
