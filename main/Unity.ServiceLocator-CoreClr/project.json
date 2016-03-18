@@ -11,15 +11,18 @@
   "frameworks": {
     "net45": {
       "frameworkAssemblies": {
-        "System.Runtime": "4.0.0.0",
-        "System.Globalization": "4.0.0.0"
+        "System.Runtime": {
+          "type": "build",
+          "version": ""
+        }
       }
     },
     "net451": {
       "frameworkAssemblies": {
-        "System": "4.0.0.0",
-        "System.Runtime": "4.0.10.0",
-        "System.Globalization": "4.0.0.0"
+        "System.Runtime": {
+          "type": "build",
+          "version": ""
+        }
       }
     },
     "dotnet": {
