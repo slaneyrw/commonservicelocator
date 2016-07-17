@@ -1,0 +1,41 @@
+﻿{
+  "version": "1.0.0.0",
+  "description": "Unity.ServiceLocator Class Library",
+  "authors": [ "Agilesight" ],
+  "packOptions": {
+    "tags": [ "" ],
+    "licenseUrl": "",
+    "repository": { "url": "https://github.com/unitycontainer/commonservicelocator" }
+  },
+  "buildOptions": {
+    "compile": {
+      "exclude": "ActivationException.Desktop.cs"
+    }
+  },
+  "dependencies": {
+  },
+  "frameworks": {
+    "net45": {
+      "frameworkAssemblies": {
+        "System.Runtime": {
+          "type": "build",
+          "version": ""
+        }
+      }
+    },
+    "net451": {
+      "frameworkAssemblies": {
+        "System.Runtime": {
+          "type": "build",
+          "version": ""
+        }
+      }
+    },
+    "netstandard1.6": {
+      "dependencies": {
+        "System.ComponentModel.TypeConverter": "4.1.0",
+        "System.Resources.ResourceManager": "4.0.1"
+      }
+    }
+  }
+}

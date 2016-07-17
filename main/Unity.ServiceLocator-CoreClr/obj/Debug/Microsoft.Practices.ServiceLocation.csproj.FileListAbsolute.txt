@@ -1,6 +1,0 @@
-D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\bin\Debug\Microsoft.Practices.ServiceLocation.XML
-D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\bin\Debug\Microsoft.Practices.ServiceLocation.dll
-D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
-D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\obj\Debug\Microsoft.Practices.ServiceLocation.dll
-D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\obj\Debug\Microsoft.Practices.ServiceLocation.pdb
-D:\ARIEL\Agilesight\Unity\CommonServiceLocator\main\Microsoft.Practices.ServiceLocation\obj\Debug\Microsoft.Practices.ServiceLocation.csprojResolveAssemblyReference.cache

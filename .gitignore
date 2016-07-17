@@ -11,3 +11,8 @@ main/ServiceLocation.PortableClassLibrary/obj/
 artifacts/bin/
 main/ServiceLocation.Tests/bin/
 main/Unity.ServiceLocator.Tests/bin/
+/main/src/Unity.ServiceLocator-CoreClr/obj/
+/main/src/Unity.ServiceLocator-CoreClr/bin/
+/main/Tests/Unity.ServiceLocator.Tests/bin/
+/main/Tests/Unity.ServiceLocator.Tests/obj/
+

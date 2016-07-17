@@ -20,7 +20,7 @@ using System.Security;
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
-#if PORTABLE
+#if NETSTANDARD1_6
 [assembly: NeutralResourcesLanguage("en-US")]
 #else
 // Setting ComVisible to false makes the types in this assembly not visible 
